@@ -144,6 +144,17 @@ button {
     background-color: #595959;
 }
 
+.button .button-out-svg {
+    width: 24px;
+    height: 24px;
+    background-color: #fff;
+    -webkit-mask: url(../img/icon/logout.svg) no-repeat 50% 50%;
+    mask: url(../img/icon/logout.svg) no-repeat 50% 50%;
+    background-repeat: no-repeat;
+    -webkit-mask-size: 20px;
+    mask-size: 20px;
+}
+
 .button-cart {
     display: none;
     margin: 0 5px;
@@ -797,17 +808,6 @@ button {
         min-height: 40px;
         padding: 5px 12px;
 
-    }
-
-    .button-out-svg {
-        width: 24px;
-        height: 24px;
-        background-color: #fff;
-        -webkit-mask: url(../img/icon/logout.svg) no-repeat 50% 50%;
-        mask: url(../img/icon/logout.svg) no-repeat 50% 50%;
-        background-repeat: no-repeat;
-        -webkit-mask-size: 20px;
-        mask-size: 20px;
     }
 
     .promo {
